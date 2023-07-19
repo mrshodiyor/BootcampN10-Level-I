@@ -50,3 +50,8 @@
 
 // !
 //Console.WriteLine(!True\)
+
+// &&
+
+// Bitswise Operato
+

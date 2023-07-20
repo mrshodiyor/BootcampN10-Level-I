@@ -56,70 +56,101 @@
 
 
 //            Console.Write(balls[i, j] + "\t");
-//        }
-//        Console.WriteLine();
+////        }
+////        Console.WriteLine();
 
+////    }
+////}   
+
+//TimeOnly startTime = new TimeOnly(8, 0, 0);
+//TimeOnly endTime = new TimeOnly(17,0,0);
+
+//DateTime[] mitings = new DateTime[10];
+//mitings[0] = new DateTime(2023,7,18,9,0,0);
+//mitings[1] = new DateTime(2023, 7, 18, 9, 0, 0);
+//mitings[2] = new DateTime(2023, 7, 19, 18, 0, 0);
+//mitings[3] = new DateTime(2023, 7, 20, 12, 0, 0);
+//mitings[4] = new DateTime(2023, 7, 21, 15, 0, 0);
+//mitings[5] = new DateTime(2023, 7, 19, 21, 0, 0);
+//mitings[6] = new DateTime(2023, 7, 18, 8, 0, 0);
+//mitings[7] = new DateTime(2023, 7, 20, 19, 0, 0);
+//mitings[8] = new DateTime(2023, 7, 23, 10, 0, 0);
+//mitings[9] = new DateTime(2023, 7, 24, 11, 0, 0);
+
+
+//TimeSpan[] timeSpans = new TimeSpan[10];
+//timeSpans[0] = new TimeSpan(20,20,20);
+//timeSpans[1] = new TimeSpan(10,10,10);
+//timeSpans[2] = new TimeSpan(20, 20, 20);
+//timeSpans[3] = new TimeSpan(30,30,30);
+//timeSpans[4] = new TimeSpan(25, 25, 25);
+//timeSpans[5] = new TimeSpan(35, 35, 35);
+//timeSpans[6] = new TimeSpan(15, 15, 15);
+//timeSpans[7] = new TimeSpan(30, 30, 30);
+//timeSpans[8] = new TimeSpan(20, 20, 20);
+//timeSpans[9] = new TimeSpan(10, 10, 10);
+
+////1
+//for (int i = 0; i < 10; i++)
+//{
+//    if (mitings[i].Hour < startTime.Hour || mitings[i].Hour > endTime.Hour)
+//    {
+//        Console.WriteLine(mitings[i]);
 //    }
-//}   
+//}
 
-TimeOnly startTime = new TimeOnly(8, 0, 0);
-TimeOnly endTime = new TimeOnly(17,0,0);
+//Console.WriteLine("\n\n");
 
-DateTime[] mitings = new DateTime[10];
-mitings[0] = new DateTime(2023,7,18,9,0,0);
-mitings[1] = new DateTime(2023, 7, 18, 9, 0, 0);
-mitings[2] = new DateTime(2023, 7, 19, 18, 0, 0);
-mitings[3] = new DateTime(2023, 7, 20, 12, 0, 0);
-mitings[4] = new DateTime(2023, 7, 21, 15, 0, 0);
-mitings[5] = new DateTime(2023, 7, 19, 21, 0, 0);
-mitings[6] = new DateTime(2023, 7, 18, 8, 0, 0);
-mitings[7] = new DateTime(2023, 7, 20, 19, 0, 0);
-mitings[8] = new DateTime(2023, 7, 23, 10, 0, 0);
-mitings[9] = new DateTime(2023, 7, 24, 11, 0, 0);
-
-
-TimeSpan[] timeSpans = new TimeSpan[10];
-timeSpans[0] = new TimeSpan(20,20,20);
-timeSpans[1] = new TimeSpan(10,10,10);
-timeSpans[2] = new TimeSpan(20, 20, 20);
-timeSpans[3] = new TimeSpan(30,30,30);
-timeSpans[4] = new TimeSpan(25, 25, 25);
-timeSpans[5] = new TimeSpan(35, 35, 35);
-timeSpans[6] = new TimeSpan(15, 15, 15);
-timeSpans[7] = new TimeSpan(30, 30, 30);
-timeSpans[8] = new TimeSpan(20, 20, 20);
-timeSpans[9] = new TimeSpan(10, 10, 10);
-
-//1
-for (int i = 0; i < 10; i++)
-{
-    if (mitings[i].Hour < startTime.Hour || mitings[i].Hour > endTime.Hour)
-    {
-        Console.WriteLine(mitings[i]);
-    }
-}
-
-Console.WriteLine("\n\n");
-
-//2
-for (int i = 0;i < 10; i++)
-{
-    if (timeSpans[i].Minutes > 30)
-    {
-        Console.WriteLine(mitings[i]);
-    }
-}
+////2
+//for (int i = 0;i < 10; i++)
+//{
+//    if (timeSpans[i].Minutes > 30)
+//    {
+//        Console.WriteLine(mitings[i]);
+//    }
+//}
 
 
 //3
 
-int count = 0;
-for (int i = 0; i<10 ; i++)
-{
-    count += timeSpans[i].Minutes;
-}
+//int count = 0;
+//for (int i = 0; i<10 ; i++)
+//{
+//    count += timeSpans[i].Minutes;
+//}
 
-Console.WriteLine($"All mitings time   {count}");
+//Console.WriteLine($"All mitings time   {count}");
+
+
+////4
+//int span = 0;
+//for (int i = 0; i < 9; i++)
+//{
+//    for (int j = 1; j < 10; j++)
+//    {
+//        if ()
+//    }
+//}    
+
+
+
+//DateTime nowadays = DateTime.Now;
+//Console.WriteLine(nowadays.DayOfWeek);
+//Console.WriteLine(nowadays.DayOfYear);
+//Console.WriteLine(nowadays.TimeOfDay);
+//Console.WriteLine(DateTime.UtcNow);
+//Console.WriteLine(DateTime.IsLeapYear(2024));
+
+
+//DateTimeOffset nowe = DateTimeOffset.Now;
+//Console.WriteLine(nowe);
+
+
+//var testA = new DateTime (2023,12,12,12,12,12,12 );
+//Console.WriteLine(testA.ToString());\
+
+
+
 
 
 

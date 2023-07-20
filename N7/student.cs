@@ -19,11 +19,22 @@ namespace N7
 
         public string EduType { get; set; }
     
-        public bool IsPayment { get; set; }
+        public int PaymentAmount { get; set; }
 
         public int GetAge() => DateTime.Now.Year - BirthDay.Year;
+
+        public string GetShortName() => FullName.PadRight(45, ' ');
+
+        public string GetAmount()
+        {
+            decimal amount = Payment - PaymentAmount;
+            if (amount < 0) return $"{-amount} haqdor";
+            else return $"{amount} qarzdor";
+        }
 
     }
 
 
 }
+
+

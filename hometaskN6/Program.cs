@@ -1,5 +1,8 @@
 ﻿Console.ForegroundColor = ConsoleColor.Green;
 
+
+
+// N1
 string[] names = { "Shodiyor", "Samandar", "G'ayrat", "Shoxsuvar", "Benzema", "Messi", "CR7", "Jon", "Uik", "Toretto" };
 int[] ball = { 10, 20, 70, 30, 50, 80, 90, 60, 100, 40 };
 
@@ -114,3 +117,4 @@ dateTimes[0] = new DateTime(2023, 04, 3);
 dateTimes[0] = new DateTime(2023, 08, 27);
 dateTimes[0] = new DateTime(2023, 05, 1);
 dateTimes[0] = new DateTime(2023, 07, 29);
+//...
